@@ -113,7 +113,7 @@ export default function Header() {
     <Popover
       className={`${
         scrolled ? "bg-white md:backdrop-blur-sm md:bg-white/90" : ""
-      } relative md:fixed sm:top-0 w-full`}
+      } relative md:fixed sm:top-0 w-full z-50`}
     >
       <div
         className={`${

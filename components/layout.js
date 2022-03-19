@@ -1,3 +1,4 @@
+import Footer from "./footer";
 import Header from "./header";
 
 
@@ -7,6 +8,7 @@ export default function Layout({ children }) {
     <div className="relative">
     <Header/>
       <main>{children}</main>
+      <Footer/>
     </div>
       
     </>
