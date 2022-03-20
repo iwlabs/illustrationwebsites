@@ -8,7 +8,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="space-y-8 text-center lg:max-w-5xl mx-auto">
             <h1 className="text-slate-900 font-extrabold text-4xl sm:text-5xl lg:text-6xl">
-              Rapidly build modern websites without ever leaving your HTML.
+              Illustration Website is all about what you think, we can design!
             </h1>
             <p className="text-xl text-slate-500 max-w-3xl mx-auto">
               Next.js gives you the best developer experience with all the
