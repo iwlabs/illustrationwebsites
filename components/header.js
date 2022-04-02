@@ -125,13 +125,15 @@ export default function Header() {
         <div className="max-w-7xl mx-auto flex justify-between items-center px-4 py-5 sm:px-6 sm:py-4 lg:px-8 md:justify-start md:space-x-10">
           <div>
             <Link href="/" passHref>
-              <a className="flex">
+              <a className="flex items-center space-x-2">
                 <span className="sr-only">Workflow</span>
-                <img
+                <div className="text-2xl">💎</div>
+                <div className="font-bold text-slate-900">Illustration Websites</div>
+                {/* <img
                   className="h-8 w-auto sm:h-10 object-scale-down"
                   src="/logo.png"
                   alt=""
-                />
+                /> */}
               </a>
             </Link>
           </div>
@@ -403,12 +405,19 @@ export default function Header() {
           <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-slate-50">
             <div className="pt-5 pb-6 px-5 sm:pb-8">
               <div className="flex items-center justify-between">
-                <div>
-                  <img
-                    className="h-8 w-auto"
-                    src="/logo.png"
-                    alt="Workflow"
-                  />
+                <div className="flex items-center space-x-2">
+                <Link href="/" passHref>
+              <a className="flex items-center space-x-2">
+                <span className="sr-only">Workflow</span>
+                <div className="text-2xl">💎</div>
+                <div className="font-bold text-slate-900">Illustration Websites</div>
+                {/* <img
+                  className="h-8 w-auto sm:h-10 object-scale-down"
+                  src="/logo.png"
+                  alt=""
+                /> */}
+              </a>
+            </Link>
                 </div>
                 <div className="-mr-2">
                   <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-slate-400 hover:text-slate-500 hover:bg-slate-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
