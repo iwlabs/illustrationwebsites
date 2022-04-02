@@ -45,10 +45,9 @@ export default function Home() {
                 <BookmarkAltIcon className="h-6 w-6 text-slate-900" />
               </div>
               <div className="text-sm space-y-2">
-                <h2 className="font-semibold">500+ Examples</h2>
+                <h2 className="font-semibold">10+ Projects</h2>
                 <p className="text-slate-500">
-                  Beautifully designed, expertly crafted components that follow
-                  all accessibility best practices and are easy to customize.
+                Beautifully designed and skillfully crafted components that adhere to all accessibility best practises and are simple to modify.
                 </p>
               </div>
             </div>
@@ -57,7 +56,7 @@ export default function Home() {
                 <BookmarkAltIcon className="h-6 w-6 text-slate-900" />
               </div>
               <div className="text-sm space-y-2">
-                <h2 className="font-semibold">React, Vue, and HTML</h2>
+                <h2 className="font-semibold">Tailwind CSS, Next.js, and HTML</h2>
                 <p className="text-slate-500">
                   Accessible, interactive examples for React and Vue powered by
                   Headless UI, plus vanilla HTML if you’d rather write any
@@ -70,7 +69,7 @@ export default function Home() {
                 <BookmarkAltIcon className="h-6 w-6 text-slate-900" />
               </div>
               <div className="text-sm space-y-2">
-                <h2 className="font-semibold">Fully Responsive</h2>
+                <h2 className="font-semibold">Fully Responsive & SEO Friendly</h2>
                 <p className="text-slate-500">
                   Every example is fully responsive and carefully designed and
                   implemented to look great at any screen size.

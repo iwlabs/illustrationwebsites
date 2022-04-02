@@ -57,15 +57,14 @@ const callsToAction = [
 ];
 const company = [
   { name: "About", href: "#", icon: InformationCircleIcon },
-  { name: "Customers", href: "#", icon: OfficeBuildingIcon },
-  { name: "Press", href: "#", icon: NewspaperIcon },
-  { name: "Careers", href: "#", icon: BriefcaseIcon },
-  { name: "Privacy", href: "#", icon: ShieldCheckIcon },
+  { name: "Testimonials", href: "#", icon: OfficeBuildingIcon },
+  { name: "Consultancy", href: "#", icon: NewspaperIcon },
+  // { name: "Careers", href: "#", icon: BriefcaseIcon },
+  // { name: "Privacy", href: "#", icon: ShieldCheckIcon },
 ];
 const resources = [
   { name: "Community", href: "#", icon: UserGroupIcon },
   { name: "Partners", href: "#", icon: GlobeAltIcon },
-  { name: "Guides", href: "#", icon: BookmarkAltIcon },
   { name: "Webinars", href: "#", icon: DesktopComputerIcon },
 ];
 const blogPosts = [
@@ -372,17 +371,12 @@ export default function Header() {
               </Popover>
             </Popover.Group>
             <div className="flex items-center md:ml-12">
+              
               <a
                 href="#"
-                className="text-base font-medium text-slate-500 hover:text-slate-900"
+                className="inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
               >
-                Sign in
-              </a>
-              <a
-                href="#"
-                className="ml-8 inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
-              >
-                Sign up
+                Contact Us
               </a>
             </div>
           </div>
